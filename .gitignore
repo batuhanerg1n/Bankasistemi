@@ -1,0 +1,17 @@
+Set-Content -Path .gitignore -Value @"
+# Visual Studio cache ve ayarlarý
+.vs/
+*.user
+*.suo
+
+# Build çýktýlarý
+bin/
+obj/
+
+# Paketler
+packages/
+
+# Log dosyalarý
+*.log
+*.vsidx
+"@
