@@ -1,45 +1,40 @@
-# Visual Studio cache ve ayarlarý
+Set-Content -Path .gitignore -Value @"
+# Visual Studio
 .vs/
 *.user
 *.suo
 *.vscode/
 
-# Build çýktý klasörleri
+# Build
 bin/
 obj/
-[Bb]uild/
-[Ll]og/
 
-# NuGet paketleri
+# NuGet
 packages/
 *.nupkg
 *.snupkg
 
-# Yayýnlama / publish klasörleri
+# Publish
 publish/
 PublishProfiles/
 wwwroot/lib/
 
-# Test sonuçlarý
+# Test
 TestResults/
 *.trx
 *.coverage
 *.coveragexml
 
-# Rider / ReSharper
+# IDE / Editor
 .idea/
 *.DotSettings
 
-# Log ve geçici dosyalar
+# Log / Temporary
 *.log
 *.vsidx
-
-# OS dosyalarý
 Thumbs.db
 .DS_Store
-
-# Backup / temporary
 *_ReSharper.*
 *_JetBrains.*
 *.tmp
-
+"@
